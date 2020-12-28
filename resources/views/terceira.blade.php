@@ -29,9 +29,9 @@
         <div class="container">
             <h1>Terceira view</h1>
             <ul>
-                {{-- @foreach($users as $user)
+                @foreach($users as $user)
                     <li>{{ $user->name }}</li>
-                @endforeach --}}
+                @endforeach
             </ul>
         </div>
     </body>

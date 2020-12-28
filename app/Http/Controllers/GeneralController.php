@@ -5,28 +5,32 @@ use App\Models\User;
 
 class GeneralController extends Controller
 {
+    // private $users;
+
+    // public function __construct() {
+    //     $this->users = User::all();
+    // }
+
     public function primeira() {
-        $users = User::all();
-        return view('primeira', compact('users'));
+        // $users = User::all();
+        // return view('primeira', compact('users'));
+        // return view('primeira', ['users' => $this->users]);
+        return view('primeira');
     }
 
     public function segunda() {
-        $users = User::all();
-        return view('segunda', compact('users'));
+        return view('segunda');
     }
 
     public function terceira() {
-        $users = User::all();
-        return view('terceira', compact('users'));
+        return view('terceira');
     }
 
     public function quarta() {
-        $users = User::all();
-        return view('quarta', compact('users'));
+        return view('quarta');
     }
 
     public function quinta() {
-        $users = User::all();
-        return view('quinta', compact('users'));
+        return view('quinta');
     }
 }
